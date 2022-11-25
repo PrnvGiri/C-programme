@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+    int i,n,pro;
+    printf("enter the number whose multiplication table you want:");
+    scanf("%d",&n);
+    for(i=1;i<=10;i++)
+    {
+        pro=n*i;
+        printf("%d x %d = %d\n",n,i,pro);
+    }
+}
